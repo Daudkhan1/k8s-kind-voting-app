@@ -14,7 +14,6 @@ spec:
       labels:
         app: nginx
     spec:
-      serviceAccountName: mysa  # Corrected indentation
       containers:
       - name: nginx
         image: nginx:latest
