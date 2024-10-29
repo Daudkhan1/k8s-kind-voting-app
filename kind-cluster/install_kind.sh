@@ -6,3 +6,9 @@
 chmod +x ./kind
 sudo cp ./kind /usr/local/bin/kind
 rm -rf kind
+
+
+flux bootstrap git \
+    --url=https://github.com/Daudkhan1/k8s-kind-voting-app.git \
+    --branch=main \
+    --path=jenkins-with-PV
